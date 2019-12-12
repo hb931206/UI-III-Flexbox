@@ -77,20 +77,26 @@ header{
 }
 
 header nav a {
-	padding:1%;
-	
+	padding:1%;	
 }
 
 /* CTA*/
 
-#cta .cta-text{
+#cta{
 	display:flex;
-	flex-direction:column;
-}	
-
-.frust{
-	margin-left:50%;
+	align-items: center;
 }
+
+.cta-text{
+	font-size: 343%;
+    text-align: center;
+    margin: 0% 8% 0% 0%;
+}
+.cta-pic{
+	margin: 5% 21% 0% 22% ;
+}
+
+
 
 
 /* main content */
