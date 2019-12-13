@@ -190,7 +190,7 @@ justify-content:center;
 /* First Row*/
 .First{
  display:flex;
- 
+ flex-direction:column;
  
 
 
@@ -201,6 +201,7 @@ justify-content:center;
 .Digital{
 	border:1px solid black;
 	background:grey;
+	
 
 	
 
@@ -210,14 +211,7 @@ justify-content:center;
 }
 
 /*Second Row*/
-.Second{
-	display:flex;
-}
 
-/*Third-row*/
-.Third{
-	display:flex;
-}
 
 /*Last*/
 .Fact{
