@@ -167,3 +167,65 @@ justify-content:center;
 
 /* New Assignment */
 
+/* head */
+
+/* Service */
+.serve-text{
+	display:flex;
+
+}
+.serve-text p{
+	width:200px;
+}
+
+/*main-content*/
+#main-content2{
+	display:flex;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+	margin:3% 0%;
+	
+}
+
+/* First Row*/
+.First{
+ display:flex;
+ 
+ 
+
+
+	
+	
+}
+
+.Digital{
+	border:1px solid black;
+	background:grey;
+
+	
+
+}
+
+
+}
+
+/*Second Row*/
+.Second{
+	display:flex;
+}
+
+/*Third-row*/
+.Third{
+	display:flex;
+}
+
+/*Last*/
+.Fact{
+	display:flex;
+	width:50%;
+}
+
+
+
+/* Footer/*
+
