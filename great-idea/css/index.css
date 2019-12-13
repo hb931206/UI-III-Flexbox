@@ -168,6 +168,19 @@ justify-content:center;
 /* New Assignment */
 
 /* head */
+header nav{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+}
+.links{
+	width:60%;
+	display:flex;
+	justify-content: space-evenly;
+}
+nav a{
+	text-decoration: none;
+}
 
 /* Service */
 .serve-text{
