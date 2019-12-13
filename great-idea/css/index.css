@@ -187,15 +187,11 @@ justify-content:center;
 	
 }
 
-/* First Row*/
+/* First Column*/
 .First{
  display:flex;
  flex-direction:column;
- 
-
-
-	
-	
+ 		
 }
 
 .Digital{
@@ -211,13 +207,35 @@ justify-content:center;
 }
 
 /*Second Row*/
+.Second{
+	display:flex;
+	flex-direction:column;
+}
 
 
 /*Last*/
-.Fact{
+
+	
+.Last{
 	display:flex;
-	width:50%;
+	flex-wrap: wrap;
+	
 }
+.Fact{
+	width: 57%;
+    margin-left: 10%;
+}
+
+.Last ul{
+	margin:2% 0% 0% 5%;
+	list-style-type: circle;
+}
+	
+.bottom{
+	margin-left:50%;
+}
+
+
 
 
 
