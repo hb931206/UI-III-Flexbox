@@ -242,27 +242,19 @@ nav a{
 }
 
 
-/*Last*/
-
-	
 .Last{
 	display:flex;
-	flex-wrap: wrap;
-	
 }
 .Fact{
-	width: 57%;
-    margin-left: 10%;
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width:60%;
+	padding:0% 15%;
 }
 
-.Last ul{
-	margin:2% 0% 0% 5%;
-	list-style-type: circle;
-}
-	
-.bottom{
-	margin-left:50%;
-}
+
+
 
 
 
