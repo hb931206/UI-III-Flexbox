@@ -194,7 +194,7 @@ nav a{
 /*main-content*/
 #main-content2{
 	display:flex;
-	justify-content: space-between;
+	
 	border-top:2px solid black;
 	border-bottom:2px solid black;
 	padding: 3% 0%;
@@ -218,17 +218,17 @@ nav a{
 	margin:5% 0%
 
 }
+.First div button{
+	margin-top:5%
+}
 
 
 }
 
-/*Second Row*/
+/*Second Column*/
 .Second{
 	display:flex;
 	flex-direction:column;
-	justify-content: space-evenly;
-	
-	
 }
 .Second div{
 	border:1px solid black;
@@ -236,7 +236,9 @@ nav a{
 	padding:5%;
 	margin:5% 0%
 
-
+}
+.Second div button{
+	margin-top:5%;
 }
 
 
