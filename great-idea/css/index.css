@@ -180,9 +180,14 @@ header nav{
 }
 nav a{
 	text-decoration: none;
+	color:grey;
+	
 }
 
 /* Service */
+.services-header{
+	width:100%;
+}
 .serve-text{
 	display:flex;
 
@@ -204,15 +209,14 @@ nav a{
 .First{
  display:flex;
  flex-direction:column;
+ justify-content: space-between;
  		
 }
 
-.Digital{
+.First div{
 	border:1px solid black;
-	background:grey;
-	
-
-	
+	background:#DCDCDC;
+	padding:5%;
 
 }
 
@@ -223,6 +227,13 @@ nav a{
 .Second{
 	display:flex;
 	flex-direction:column;
+}
+.Second div{
+	border:1px solid black;
+	background:#DCDCDC;
+	padding:5%;
+
+
 }
 
 
