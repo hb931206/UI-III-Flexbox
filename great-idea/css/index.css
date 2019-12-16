@@ -244,6 +244,7 @@ nav a{
 
 .Last{
 	display:flex;
+	margin:3% 0%;
 }
 .Fact{
 	display:flex;
@@ -251,6 +252,12 @@ nav a{
 	flex-wrap: wrap;
 	width:60%;
 	padding:0% 15%;
+}
+
+
+ul{
+	padding:5% 0% 0% 5%;
+	list-style-type: circle;
 }
 
 
