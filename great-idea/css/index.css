@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -64,3 +59,229 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	width:1000px;
+	margin:auto;
+	
+}
+/*header*/
+header{
+	display:flex;
+	justify-content:space-evenly;
+}
+}
+
+header nav a {
+	padding:1%;	
+}
+
+/* CTA*/
+
+#cta{
+	display:flex;
+	align-items: center;
+}
+
+.cta-text{
+	font-size: 343%;
+    text-align: center;
+    margin: 0% 8% 0% 0%;
+}
+.cta-pic{
+	margin: 5% 21% 0% 22% ;
+}
+
+
+
+
+/* main content */
+#main-content .top-content{
+	display:flex;
+	margin:3% 4%;
+
+}
+
+.Features{
+	display:flex;
+	flex-direction: column;
+	margin-right:10%;
+}
+
+.About{
+	display:flex;
+	flex-direction: column;
+}
+
+.middle-img{
+margin:3% 0%;
+}
+
+
+#main-content .bottom-content{
+	display:flex;
+	border-bottom:1% black;
+}
+
+.Service{
+	display:flex;
+	flex-direction: column;
+	margin-left:2%;
+}
+.Product{
+	display:flex;
+	flex-direction: column;
+	margin-left:2%;
+}
+
+.Vision{
+	display:flex;
+	flex-direction: column;
+	margin-left:2%;
+
+}
+
+
+/* contact */
+.Number{
+display:flex;
+flex-direction:column;
+margin-top: 5%;
+margin-left: 17%;
+}
+
+
+
+
+/* footer */
+footer{
+display:flex;
+justify-content:center;
+}
+
+
+
+/* New Assignment */
+
+/* head */
+header nav{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+}
+.links{
+	width:60%;
+	display:flex;
+	justify-content: space-evenly;
+}
+nav a{
+	text-decoration: none;
+	color:grey;
+	
+}
+
+/* Service */
+.services-header{
+	width:100%;
+}
+.serve-text{
+	display:flex;
+
+}
+.serve-text p{
+	width:200px;
+}
+
+/*main-content*/
+#main-content2{
+	display:flex;
+	
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+	padding: 3% 0%;
+	margin: 3% 0%;
+	
+	
+}
+
+/* First Column*/
+.First{
+ display:flex;
+ flex-direction:column;
+ margin-right:5%;
+ 		
+}
+
+.First div{
+	border:1px solid black;
+	background:#DCDCDC;
+	padding:5%;
+	margin:5% 0%
+
+}
+.First div button{
+	margin-top:5%
+}
+
+
+}
+
+/*Second Column*/
+.Second{
+	display:flex;
+	flex-direction:column;
+}
+.Second div{
+	border:1px solid black;
+	background:#DCDCDC;
+	padding:5%;
+	margin:5% 0%
+
+}
+.Second div button{
+	margin-top:5%;
+}
+
+
+.Last{
+	display:flex;
+	margin:3% 0%;
+}
+.Fact{
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width:60%;
+	padding:0% 15%;
+}
+
+
+ul{
+	padding:5% 0% 0% 5%;
+	list-style-type: circle;
+}
+
+
+
+
+
+
+
+
+/* Footer/*
+
+
+
+
+/* Footer/*
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
